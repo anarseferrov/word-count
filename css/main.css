@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #333333 !important;
+  background-color: #d0e1d3 !important;
+}
+h3 {
+  font-weight: 700;
+}
+* {
+  box-sizing: border-box;
+}
+.output {
+  background-color: #f2f2f2 !important;
+  color: #333333 !important;
+}
+.output span {
+  font-weight: 700;
+  font-size: 1.1rem;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Count App</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container mt-2">
+      <div class="col-12 col-md-8 m-auto">
+        <h3 class="text-center">Word Counter</h3>
+        <textarea
+          placeholder="Enter yout text here..."
+          cols="60"
+          rows="7"
+          class="col-12 mt-2"
+        ></textarea>
+        <div class="output col my-2 p-3">
+          <div>Characters: <span id="characterCount">0</span></div>
+        </div>
+        <div class="output col my-2 p-3">
+          <div>Words: <span id="wordCount">0</span></div>
+        </div>
+        <div class="output col my-2 p-3">
+          <div>Sentences: <span id="sentencesCount">0</span></div>
+        </div>
+        <div class="output col my-2 p-3">
+          <div>Paragraphs: <span id="paragraphCount">0</span></div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/app.js"></script>
+    <script src="./js/bootstrap.min.js""></script>
+  </body>
+</html>
